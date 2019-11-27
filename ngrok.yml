@@ -2,4 +2,7 @@ authtoken: 1UB5lZVjnPpTY3JMEoTJmzX75Lm_2jRNZV88dRDLTEmeD3WWZ
 tunnels:
   myapp:
     addr: 8000
-    proto: all
+    proto: http
+  ssh-access:
+    addr: 22
+    proto: tcp
